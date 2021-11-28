@@ -28,7 +28,7 @@ export default function Home(props) {
 export const getStaticProps = async (ctx) => {
   const getEnv = (route) => {
     return process.env.NODE_ENV === "production"
-      ? "https://words-aas.vercel.app/db/"
+      ? "https://portfolio-github-nextjs-5qnbghqcj-hectorlopezv.vercel.app/"
       : `http://localhost:3000/api/${route}`;
   };
   const urls = [
