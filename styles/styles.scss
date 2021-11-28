@@ -538,7 +538,6 @@ header {
     margin-right: 6px;
     min-width: fit-content;
   }
-
 }
 
 .btn-picker {
@@ -554,4 +553,9 @@ header {
 .slick-prev:before,
 .slick-next:before {
   color: black !important;
+}
+.react-multi-carousel-list {
+  @media screen and (min-width: 1200px) {
+    justify-content: center;
+  }
 }

@@ -5,31 +5,28 @@ import { Component } from "react";
 
 export class SliderCards extends Component {
   render() {
+    this.props.settings["desktop"].items =
+      this.props?.cards?.length >= 2 ? 4 : 2;
     return (
       <div>
         <Carousel
-          additionalTransfrom={0}
-          arrows
-          autoPlaySpeed={3000}
-          centerMode={false}
+          arrows={this.props.cards?.length > 1}
           className=""
           containerClass="container-with-dots"
           dotListClass=""
-          draggable
+          draggable={this.props.cards?.length > 2 ? true : false}
           focusOnSelect={false}
-          infinite
+          infinite={this.props.cards?.length > 1}
           itemClass=""
           keyBoardControl
           minimumTouchDrag={80}
-          renderButtonGroupOutside={false}
-          renderDotsOutside={false}
           responsive={this.props.settings}
           showDots={false}
           sliderClass=""
-          slidesToSlide={1}
-          swipeable
+          slidesToSlide={this.props.cards?.length > 2 ? 2 : 1}
+          swipeable={this.props.cards?.length > 2}
         >
-          {this.props.cards.map((card) => (
+          {this.props.cards?.map((card) => (
             <div key={card.title}>
               <Card
                 src={card.imageSrc}

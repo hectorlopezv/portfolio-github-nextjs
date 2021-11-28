@@ -98,7 +98,29 @@
       "info": "Google Search Engine UI clone using programable search Engine , React-typescript",
       "repo": "https://github.com/hectorlopezv/google-UI-Clone-search",
       "demo": "https://ui-clone-142e1.web.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/huli.png",
+      "title": "Hulu UI Lite clone",
+      "info": "Hulu UI clone using tailwind, react, typescript",
+      "repo": "https://github.com/hectorlopezv/mombx_lite_clone_hulu",
+      "demo": "https://mombx-lite-clone-hulu-hectorlopezv.vercel.app/"
     }
   ],
-  "Next": []
+  "Next": [
+    {
+      "imageSrc": "/assests/pictures/docs.png",
+      "title": "Google Docs UI clone",
+      "info": "Google Docs UI clone using tailwind, Next, typescript, google authentication",
+      "repo": "https://github.com/hectorlopezv/google-docs-clone-lite-nextSsr",
+      "demo": "https://google-docs-clone-lite-next-ssr.vercel.app/auth/signin"
+    },
+    {
+      "imageSrc": "/assests/pictures/portfolio.png",
+      "title": "Portfolio Next Based",
+      "info": "Next, based portfolio",
+      "repo": "https://github.com/hectorlopezv/portfolio-github-nextjs",
+      "demo": "hectorlopezv.github.io/portfolio-github-nextjs/"
+    }
+  ]
 }

@@ -11,7 +11,6 @@ export const Projects = () => {
     });
   }, []);
   const handler = (e) => {
-   
     setselectedTech(e.target.id);
   };
 

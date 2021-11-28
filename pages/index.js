@@ -29,7 +29,7 @@ export const getStaticProps = async (ctx) => {
   const getEnv = (route) => {
     return process.env.NODE_ENV === "production"
       ? "https://words-aas.vercel.app/db/"
-      : `http://localhost:3001/api/${route}`;
+      : `http://localhost:3000/api/${route}`;
   };
   const urls = [
     getEnv("Links"),
