@@ -1,8 +1,17 @@
+import Image from "next/image";
 export const Card = (props) => {
   const { src, title, info, demo, git } = props;
   return (
     <div className="card">
-      <img className="card-img-top img-fluid" src={src} alt="Card  cap" />
+      <Image
+        src={src}
+        alt={`Picture of Post 4 ${title}`}
+        width={200}
+        height={200}
+        layout="intrinsic"
+        priority
+      />
+
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{info}</p>

@@ -1,6 +1,6 @@
 const CheckIcon = (props) => {
   return (
-    <div className="check_icon">
+    <div className="check_icon flex-col items-start sm:flex-row sm:items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"

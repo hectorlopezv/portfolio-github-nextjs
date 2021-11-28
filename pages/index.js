@@ -1,4 +1,11 @@
-import { NavBar, SignBoard, About, Projects } from "../components";
+import {
+  NavBar,
+  SignBoard,
+  About,
+  Projects,
+  Contact,
+  Footer,
+} from "../components";
 export default function Home(props) {
   return (
     <>
@@ -7,6 +14,8 @@ export default function Home(props) {
         <SignBoard links={props.links} lettersOptions={props.LettersOptions} />
         <About options={props.About} />
         <Projects />
+        <Contact options={props.Contact} />
+        <Footer options={props.Footer} />
       </div>
     </>
   );
@@ -27,12 +36,13 @@ export const getStaticProps = async (ctx) => {
     getEnv("LettersOptions"),
     getEnv("NavBar"),
     getEnv("About"),
+    getEnv("Contact"),
+    getEnv("Footer"),
   ];
   try {
     let res = await Promise.all(urls.map((e) => fetch(e)));
-    let [links, LettersOptions, NavBarOptions, About] = await Promise.all(
-      res.map((e) => e.json())
-    );
+    let [links, LettersOptions, NavBarOptions, About, Contact, Footer] =
+      await Promise.all(res.map((e) => e.json()));
 
     return {
       props: {
@@ -40,8 +50,9 @@ export const getStaticProps = async (ctx) => {
         LettersOptions: LettersOptions,
         NavBarOptions: NavBarOptions,
         About: About,
+        Contact: Contact,
+        Footer: Footer,
       },
-      
     };
   } catch (err) {
     console.log(err);

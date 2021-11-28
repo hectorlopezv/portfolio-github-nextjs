@@ -9,7 +9,7 @@
   },
   "mobile": {
     "breakpoint": {
-      "max": 464,
+      "max": 480,
       "min": 0
     },
     "items": 1,
@@ -18,7 +18,7 @@
   "tablet": {
     "breakpoint": {
       "max": 1023,
-      "min": 464
+      "min": 481
     },
     "items": 2,
     "partialVisibilityGutter": 30

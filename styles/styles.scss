@@ -536,7 +536,9 @@ header {
   }
   & strong {
     margin-right: 6px;
+    min-width: fit-content;
   }
+
 }
 
 .btn-picker {

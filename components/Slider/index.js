@@ -6,7 +6,7 @@ import { Component } from "react";
 export class SliderCards extends Component {
   render() {
     return (
-      <>
+      <div>
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -41,7 +41,7 @@ export class SliderCards extends Component {
             </div>
           ))}
         </Carousel>
-      </>
+      </div>
     );
   }
 }

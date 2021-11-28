@@ -11,7 +11,7 @@ export const Projects = () => {
     });
   }, []);
   const handler = (e) => {
-    console.log("e", e);
+   
     setselectedTech(e.target.id);
   };
 
