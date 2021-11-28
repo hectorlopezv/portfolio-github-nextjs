@@ -1,0 +1,104 @@
+{
+  "React": [
+    {
+      "imageSrc": "/assests/pictures/netflix.png",
+      "title": "Netflix UI clone V2",
+      "info": "Netflix UI clone using the following React-typescript Context-API, Redux, firebase, StyleComponents, Auth, Login, Logout",
+      "repo": "https://github.com/hectorlopezv/netflixv2-clone-ts",
+      "demo": "https://netflix-clone-ts.web.app"
+    },
+    {
+      "imageSrc": "/assests/pictures/netflixv1.png",
+      "title": "Netflix UI clone V1",
+      "info": "Netflix UI cloneV1 using the following React-typescript, React-youtube, movie-trailer, axios IMDb API",
+      "repo": "https://github.com/robpalacios1/netflix-ts",
+      "demo": "https://netflix-clone-seven-kappa.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/discord.png",
+      "title": "Discord UI Clone",
+      "info": "Simple UI discord chat UI clone using the following React, firebase, ts, pusher, mongodb, redux, auth with firebase",
+      "repo": "https://github.com/hectorlopezv/Discord-UIClone-Redux-Ts",
+      "demo": "https://discordclone-34505.web.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/burger.png",
+      "title": "Burger Project",
+      "info": "Burger Builder Project using the folowing auth with firebase-redux-contextAPI-saga, React",
+      "repo": "https://github.com/hectorlopezv/burgerproject",
+      "demo": "https://burgerbuilder-80b74.web.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/amazon.png",
+      "title": "Amazon UI clone",
+      "info": "Amazon UI clone with Payment using stripe.js, redux/sagas, ts, React......(In Progress)",
+      "repo": "https://github.com/hectorlopezv/Amazon-ts-clone-lite",
+      "demo": "https://clone-ts.web.app/"
+    },
+
+    {
+      "imageSrc": "/assests/pictures/Nexter.png",
+      "title": "Nexter Inc",
+      "info": "Realtors Website Using Grid Layout Only with Sass and pure js",
+      "repo": "https://github.com/hectorlopezv/css-Grid-project",
+      "demo": "https://css-grid-project.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Torre.png",
+      "title": "Torre Demo Day",
+      "info": "Using torre API Endpoints to fetch data about jobs or persons,React.js",
+      "repo": "https://github.com/hectorlopezv/torreDemo",
+      "demo": "https://torre-demo.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Outdoor.png",
+      "title": "OutDoor Inc",
+      "info": "Using torre API Endpoints to fetch data about jobs or persons,React.js",
+      "repo": "https://github.com/hectorlopezv/Advanced-CSS-Sass-Flexbox-Grid-Animations-More-",
+      "demo": "https://advanced-css-sass-flexbox-grid-animations-more.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Agencia.png",
+      "title": "Agency Inc",
+      "info": "Travel agency Website monolith using Node.js, Express.js, Pug, Javascript",
+      "repo": "https://github.com/hectorlopezv/javascript-from-zero-to-hero/tree/master/intro-nodejs",
+      "demo": "https://quiet-temple-27244.herokuapp.com/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Tribe.png",
+      "title": "Tribe Labs Inc",
+      "info": "npm Package developed with typeScript using Bodypix as a Backone for the tribeTeam. React.",
+      "repo": "https://github.com/hectorlopezv/tribe_lib_package",
+      "demo": "https://tribedemo.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Cripto.png",
+      "title": "Cripto Inc",
+      "info": "Website that shows the users the latest prices on the most popular virtual currencies, Using the CryptoCompare API and pure js",
+      "repo": "https://github.com/hectorlopezv/javascript-from-zero-to-hero/tree/master/PROYECTO-COTIZADOR-CRIPTOMONEDA-FETCH",
+      "demo": "https://criptomondeas.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Facebook.png",
+      "title": "Facebook UI clone",
+      "info": "facebook UI clone using firebase and mongodb with pusher for real time, React-typescript",
+      "repo": "https://github.com/hectorlopezv/facebook-ui-clone-ts",
+      "demo": "https://facebook-ui-clone.web.app"
+    },
+    {
+      "imageSrc": "/assests/pictures/Spotify.png",
+      "title": "Spotify UI Clone - Controller",
+      "info": "Spotify UI Clone using Spotify Web api to control the main App, React-typescript",
+      "repo": "https://github.com/hectorlopezv/spotifiy-ui-clone",
+      "demo": "https://spotifi-ui-clone.web.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/Google.png",
+      "title": "Google Search Engine UI clone",
+      "info": "Google Search Engine UI clone using programable search Engine , React-typescript",
+      "repo": "https://github.com/hectorlopezv/google-UI-Clone-search",
+      "demo": "https://ui-clone-142e1.web.app/"
+    }
+  ],
+  "Next": []
+}
