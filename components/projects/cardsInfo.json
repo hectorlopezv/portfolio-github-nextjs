@@ -121,6 +121,13 @@
       "info": "Next, based portfolio",
       "repo": "https://github.com/hectorlopezv/portfolio-github-nextjs",
       "demo": "hectorlopezv.github.io/portfolio-github-nextjs/"
+    },
+    {
+      "imageSrc": "/assests/pictures/spotify2.png",
+      "title": "spotify Next12 Lite clone",
+      "info": "(Spotify Premium is required), Next12, React, Debounce, Tailwind, Spotify API, oAuth JWt, Access refresh, tokens, NextAuth, Recoil",
+      "repo": "https://github.com/hectorlopezv/spotify-next12",
+      "demo": "https://spotify-next12.vercel.app/"
     }
   ]
 }
