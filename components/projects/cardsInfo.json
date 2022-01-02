@@ -105,6 +105,13 @@
       "info": "Hulu UI clone using tailwind, react, typescript",
       "repo": "https://github.com/hectorlopezv/mombx_lite_clone_hulu",
       "demo": "https://mombx-lite-clone-hulu-hectorlopezv.vercel.app/"
+    },
+    {
+      "imageSrc": "/assests/pictures/crypto.png",
+      "title": "Crypto Assets Visualization",
+      "info": "Crypto gecko apo , tailwind, react-table, filtering, recharts",
+      "repo": "https://github.com/hectorlopezv/inmutablefitcra",
+      "demo": "https://inmutablefitcra.vercel.app"
     }
   ],
   "Next": [
@@ -123,11 +130,11 @@
       "demo": "hectorlopezv.github.io/portfolio-github-nextjs/"
     },
     {
-      "imageSrc": "/assests/pictures/spotify2.png",
-      "title": "spotify Next12 Lite clone",
-      "info": "(Spotify Premium is required), Next12, React, Debounce, Tailwind, Spotify API, oAuth JWt, Access refresh, tokens, NextAuth, Recoil",
+      "imageSrc": "/assests/pictures/spotifyNext.png",
+      "title": "Spotify lite clone Next12",
+      "info": "Spotify UI Clone using Spotify Web api to control the main App, Next12-middleware-typescript",
       "repo": "https://github.com/hectorlopezv/spotify-next12",
-      "demo": "https://spotify-next12.vercel.app/"
+      "demo": "https://spotify-next12.vercel.app/login"
     }
   ]
 }
